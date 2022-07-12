@@ -1,2 +1,64 @@
 /*font-family: 'Bree Serif', serif;*/
 /*font-family: 'Bebas Neue', cursive;*/
+*{
+    margin: 0;
+}
+header{
+    background-image: url(images/death-note-bg.jpg);
+    background-size: cover;
+}
+header img{
+    width: 80px;
+    position: relative;
+    left: 5px;
+}
+header h3{
+    position: absolute;
+    color: rgb(0, 89, 255);
+    left: 85px;
+    top: 25px;
+    font-size: 30px;
+    font-family: 'Acme', sans-serif;
+}
+nav ul{
+    list-style-type: none;
+    display: flex;
+    position: absolute;
+    left: 830px;
+    top: 20px;
+    
+}
+nav ul li{
+    font-size: 20px;
+    padding: 20px;
+    margin: 0 10px;
+    
+   
+}
+nav ul li a{
+    text-decoration: none;
+    transition: .5s;
+    color: white;
+    font-family: 'Permanent Marker', cursive;
+}
+nav ul li a:hover{
+    color: yellow;
+}
+.death-note h1{
+    font-family: 'Bree Serif', serif;
+    font-size: 50px;
+}
+.death-note{
+    padding-top: 250px;
+    padding-left: 50px;
+    padding-bottom: 120px;
+    width: 500px;
+    color: white;
+}
+.death-note a{
+    text-decoration: none;
+    padding: 10px 20px;
+    border: 1px solid black;
+    background: linear-gradient(rgba(255, 0, 0, 0.877), rgba(231, 112, 96, 0.856));
+    color: white;
+}
