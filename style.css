@@ -6,6 +6,7 @@
 header{
     background-image: url(images/death-note-bg.jpg);
     background-size: cover;
+    
 }
 header img{
     width: 80px;
@@ -61,4 +62,76 @@ nav ul li a:hover{
     border: 1px solid black;
     background: linear-gradient(rgba(255, 0, 0, 0.877), rgba(231, 112, 96, 0.856));
     color: white;
+}
+main{
+    padding-top: 100px;
+    background-color: rgba(0, 4, 41, 0.521);
+}
+.Content{
+    margin-top: 100px;
+}
+.Title{
+    color: rgba(255, 255, 255, 0.726);
+    font-family: 'Bebas Neue', cursive;
+}
+.Title h1{
+    display: inline-block;
+    padding-left: 20px;
+    color: red;
+    left: 20px;
+    font-size: 30px;
+}
+.Title h3{
+    font-size: 30px;
+    display: inline-block;
+    padding-left: 22x;
+}
+.parent-div{
+    display: flex;
+}
+.anime img{
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    width: 255px;
+    height: 345px;
+}
+.anime{
+    background-color: rgba(6, 255, 213, 0.603);
+    color: black;
+    margin-left: 10px;
+    margin-right: 5px;
+    border-radius: 10px;
+    padding-bottom: 25px;
+}
+.anime:hover{
+    background-color: rgba(6, 255, 214, 0.322);
+}
+
+
+.anime h3  {
+    padding: 5px;
+}
+.anime p{
+    padding: 5px;
+}
+.anime a{
+    text-decoration: none;
+    color: white;
+    border-radius: 10px;
+    background: linear-gradient(rgba(28, 28, 29, 0.849), rgba(0, 0, 0, 0.151));
+    padding: 10px 20px;
+    margin-left: 5px;
+    transition: .5s;
+}
+.anime a:hover{
+    background-color: rgba(0, 0, 0, 0.781);
+}
+footer{
+    color: white;
+    padding: 50px 100px 100px 100px;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.712);
+}
+footer img{
+    width: 100px;
 }
